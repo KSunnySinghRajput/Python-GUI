@@ -1,0 +1,96 @@
+package: python-cropper-tk
+author: zvezdochiot [https://github.com/zvezdochiot]
+
+0.20210218
+INDICATOR
+
+    added rectangle size indicator
+
+0.20210212
+COMPATIBLE
+
+    fixed: python3 compatibility
+    remove code for Python3 by @potatoboiler
+
+0.20201015
+REORGANIZE
+
+    refactoring code for Python3 by @potatoboiler
+
+0.20200509
+ENCODING
+
+    fix sys.encoding
+    enable/disable button
+
+0.20200501
+AUTOCROP
+
+    new design
+    fix Undo (n)
+    Added BW mode in autocrop
+
+0.20200424
+AUTOCROP
+
+    Auto countour non-white areas
+
+0.20200421 [Ren Jie (https://github.com/notha99y)]
+COMPATIBLE
+
+    python3 compatibility
+
+0.20200419
+RESET
+
+    python3 compatibility
+    fix Reset (x0,y0)
+
+0.20191128
+RESET
+
+    fix Reset
+
+0.20191125
+COUNTOUR
+
+    ImageFilter.CONTOUR
+
+0.20190813
+ANTIALIAS
+
+    Image.ANTIALIAS
+
+0.20180524
+Function Plus rectangle
+
+    Plus mode -> function Plus
+
+0.20180105
+Clean margin crop images
+
+    Clean margin crop images
+    +ToolTips
+
+0.20180102
+Normalizing rectangles
+
+    Normalizing the size of rectangles
+
+0.20180101
+Plus mode + Divide Factor
+
+    Plus mode (unification-expanding areas, effective with Zoom mode)
+    Divide Factor (reduced resolution of illustrations)
+    +Verify input parameters
+
+0.20171230
+Fix offset
+
+    Fix offset in clip
+
+0.20171229
+Zoom version
+
+    Zoom version
+    +Crop the image and creates a PDF with the same size
